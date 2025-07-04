@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-secondary text-textMain font-sans;
+  }
+
+  .inputStyle {
+    @apply w-full border border-borderLight px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-accent;
+  }
+}
