@@ -1,10 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import partners from "../data/partners"; // Make sure to import this at the top
-
+import { Helmet } from "react-helmet-async";
+import SEO from "../components/SEO"; // Import your SEO component if you have one
+<Helmet>
+  <title>Access to Finance – Home</title>
+  <meta name="description" content="The official Access to Finance homepage for agro-entrepreneurs and partners." />
+  <link rel="canonical" href="https://access-to-finance.vercel.app" />
+</Helmet>
 const Home = () => {
   return (
     <div className="bg-secondary text-textMain">
+      <>
+  <SEO
+    title="Access to Finance – Prime Anchor Model"
+    description="A private sector-led initiative enabling financing, infrastructure, and market support for Nigerian agribusinesses."
+    url="https://access-to-finance.vercel.app"
+  />
+  
+  {/* Existing homepage JSX goes here... */}
+</>
+
       {/* ✅ Navbar */}
       <nav className="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-50">
         <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
@@ -47,26 +63,26 @@ const Home = () => {
         <div className="max-w-6xl mx-auto space-y-6">
           <h2 className="text-2xl font-bold text-primary">About the Program</h2>
           <p>
-            The program was developed by Abubakar Aliyu Kusfa, an agricultural facilitator and policy advocate, in response to the chronic exclusion of credible agro-enterprises from finance, energy, and input support. With deep experience navigating public-private landscapes, Kusfa pioneered this model after engagements with both Federal MDAs and Kaduna State institutions.
-           Our journey began under the budget of the Kaduna State Ministry of Agriculture in 2023, where it was approved and institutionalized. Since then, we have grown into a movement, with Strategic Implementation Plan (SIP) and an Operational Guide Framework (OGF) that clearly define our mission, structure, and implementation pathway.
+            The program was developed by Abubakar Aliyu Kusfa, an agricultural facilitator and policy advocate, in response to the chronic exclusion of credible agro-enterprises from finance, energy, and input support. With deep experience navigating public-private landscapes, Kusfa pioneered this model after engagements with both Federal Ministries Departments and Agencies (MDAs) and Kaduna State institutions.
+           Our journey began in May 2022, and were captured under the budget of the Kaduna State Ministry of Agriculture in 2023, where it was approved and institutionalized. Since then, we have grown into a movement, with Strategic Implementation Plan (SIP) and an Operational Guide Framework (OGF) that clearly define our mission, structure, and implementation pathway.
           </p>
           
       {/*<br /><h2 className="text-2xl font-bold text-primary"></h2><br/>*/}
       <br /><h2 className="text-2xl font-bold text-primary">Our Approach</h2><br/>
 
           <p>
-            Private-Sector-Led, Government-Supported:
+            Private-Sector-Led, Public policy Guided, Government-Supported: <br/>
             While the Ministry of Agriculture provides oversight and legitimacy, day-to-day facilitation is handled by a private Program Management Team (PMT).
 
             The Prime Anchor Model:
             This involves identifying capable private sector “Prime Anchors” that support clusters of farmers or processors by linking them to finance, inputs, technology, and markets.
 
-            SIP & OGF Frameworks:
+            Strategic Implementation Plan (SIP) & Operational Guide Frameworks (OGF):
             Our implementation is guided by two key documents:
 
-            Strategic Implementation Plan (SIP) – 24 pages
+            Strategic Implementation Plan (SIP) – 24 pages <br/>
 
-            Operational Guide Framework (OGF) – 10 pages
+            Operational Guide Framework (OGF) – 10 pages<br/>
 
 
            Facilitation Not Distribution:
@@ -74,6 +90,17 @@ const Home = () => {
           </p>
 
           <br /><h2 className="text-2xl font-bold text-primary"> Our Mission</h2><br/>
+          <p>
+            "To provide an enabling environment for agribusiness development through the efficient management of resources, deployment of improved technologies, and market facilitation for inclusive, sustainable, and profitable agricultural enterprise."
+
+            (Adapted from Kaduna State Agricultural Policy)
+
+          </p>
+          <br /><h2 className="text-2xl font-bold text-primary"> Our vision</h2><br/>
+          <p>
+            A Nigeria where agriculture is a business, not a burden — where markets are structured, electricity powers production, and facilitation unlocks finance for those who feed the nation.
+
+          </p>
           
 
             <br /><h2 className="text-2xl font-bold text-primary">About Us</h2><br />
@@ -91,15 +118,15 @@ const Home = () => {
           <p>
             We aim to:
 
-            Facilitate access to sustainable financing for agro-processing companies, cooperatives, and farming clusters
+            Facilitate access to sustainable financing for agro-processing companies, cooperatives, and farming clusters.<br />
 
-            Reduce the burden of public subsidy and shift to private-led investment
+            Reduce the burden of public subsidy and shift to private-led investment.<br />
 
-            Drive compliance, reduce default, and de-risk agro value chain investments
+            Drive compliance, reduce default, and de-risk agro value chain investments.<br />
 
-            Power up rural agriculture through energy partnerships (off-grid and grid-aligned)
+            Power up rural agriculture through energy partnerships (off-grid and grid-aligned).<br />
 
-            Engage with government, DFIs, regulators, and MDAs for national replication
+            Engage with government, Development Finance Institutions (DFIs), regulators, and MDAs for national replication.<br />
 
 
 
@@ -108,13 +135,13 @@ const Home = () => {
 
           <br /><h2 className="text-2xl font-bold text-primary">What Makes Us Uniqe</h2><br />
         <p>
-          We are private-sector-led, public-sector-recognized
+          We are private-sector-led, public-sector-recognized.<br />
 
-        We facilitate — we do not distribute subsidies or inputs
+        We facilitate — we do not distribute subsidies or inputs.<br />
 
-        We operate with a full implementation framework (SIP & OGF)
+        We operate with a full implementation framework (SIP & OGF).<br />
 
-        We are multi-sectoral, engaging power, finance, and development sectors
+        We are multi-sectoral, engaging power, finance, and development sectors.<br />
 
         We coordinate three platforms under one leadership:<br/>
 
@@ -129,70 +156,54 @@ const Home = () => {
         <p>
           We are:
 
-         Recognized by the Central Bank of Nigeria post-ABP reform
+         Recognized by the Central Bank of Nigeria post-ABP reform. <br />
 
-         In active discussion with SEC, FMFEC, Planning & Budget Commission, and SMEDAN
+         In active discussion with SEC, FMFEC, Planning & Budget Commission, and SMEDAN. <br />
 
-         Working with KAEDCO, REA, PUFF, and NIRSAL on powering agro-entities
+         Working with KAEDCO, REA, PUFF, and NIRSAL on powering agro-entities.<br />
 
-         Implementing recommendations from the Kaduna State Executive Council to expand prime anchors to tomatoes, ginger, sugarcane, and livestock
+         Implementing recommendations from the Kaduna State Executive Council to expand prime anchors to tomatoes, ginger, sugarcane, and livestock.<br />
 
-         Strengthening engagement with rural markets across 255 wards in Kaduna State
-
-
-        </p>
-
-
-
-        <br /><h2 className="text-2xl font-bold text-primary">Our Mandate</h2><br />
-        <p>
-          We aim to:
-
-      Facilitate access to sustainable financing for agro-processing companies, cooperatives, and farming clusters
-                                                                                                                                                                                                                                                                                              
-      Reduce the burden of public subsidy and shift to private-led investment
-
-      Drive     compliance, reduce default, and de-risk agro value chain investments
-
-      Power up rural agriculture through energy partnerships (off-grid and grid-aligned)
-
-      Engage with government, DFIs, regulators, and MDAs for national replication
+         Strengthening engagement with rural markets across 255 wards in Kaduna State.<br />
 
 
         </p>
+
+
+
         
 
 
         <br /><h2 className="text-2xl font-bold text-primary">Our Core Documents</h2><br />
         <p>
-          Strategic Implementation Plan (SIP) – 24 pages
+          Strategic Implementation Plan (SIP) – 24 pages.<br />
 
-          Operational Guide Framework (OGF) – 10 pages
+          Operational Guide Framework (OGF) – 10 pages.<br />
 
-          National Position Paper – for federal traction and replication
+          National Position Paper – for federal traction and replication.<br />
 
 
         </p>
 
         <br /><h2 className="text-2xl font-bold text-primary">Our Philosophy</h2><br />
         <p>
-          We believe in replacing wasteful subsidy programs with smart, structured facilitation. Our program redefines the role of government as key enabler, supporters, facilitator not provider — and unlocks finance, infrastructure, and legitimacy for agro-entities to thrive sustainably.
+          We believe in replacing wasteful subsidy programs with smart, structured facilitation.<br /> Our program redefines the role of government as key enabler, supporter, facilitator not provider — and unlocks finance, infrastructure, and legitimacy for agro-entities to thrive sustainably.
 
         </p>
-        <br /><h2 className="text-2xl font-bold text-primary">Priorities 2025</h2><br/>
+        <br /><h2 className="text-2xl font-bold text-primary">Priorities </h2><br/>
           <p>
-            Institutionalize the model in federal frameworks (NDP 2026–2030)
+            Institutionalize the model in federal frameworks (NDP 2026–2030).
 
-            Expand Prime Anchors to sugarcane, tomatoes, livestock, and ginger
+            Expand Prime Anchors to sugarcane, tomatoes, livestock, and ginger.<br />
 
-            Digitally structure rural markets in 255 Kaduna wards
+            Digitally structure rural markets in 255 Kaduna State wards as pioneer.<br />
 
-            Integrate off-grid energy solutions for agro-enterprises
+            Integrate off-grid energy solutions for agro-enterprises.<br />
 
-            Expand national recognition and attract private investment
+            Expand national recognition and attract private investment.<br />
 
 
-            “Agriculture is not a poverty trap. It is a business opportunity — when facilitated rightly.”
+            “Agriculture is not a poverty trap. It is a business opportunity — when facilitated rightly.”<br />
 
 
 
@@ -202,17 +213,17 @@ const Home = () => {
           <p>
             We welcome engagement with:
 
-            Development Finance Institutions (DFIs),
+            Development Finance Institutions (DFIs),<br />
 
-            State and Federal Ministries,
+            State and Federal Ministries,<br />
 
-            Energy providers and regulators,
+            Energy providers and regulators,<br />
 
-            Private investors, Prime Anchors,
+            Private investors, Prime Anchors,<br />
 
-            Researchers, cooperatives, agro-entrepreneurs,
+            Researchers, cooperatives, agro-entrepreneurs,<br />
 
-            Donors, CSOs, and advocacy organizations.
+            Donors, CSOs, and advocacy organizations.<br />
 
           </p>
             

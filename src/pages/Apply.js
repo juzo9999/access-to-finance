@@ -1,5 +1,13 @@
 import React from "react";
 import ExpressionOfInterestForm from "../components/ExpressionOfInterestForm";
+import { Helmet } from "react-helmet-async";
+
+<Helmet>
+  <title>Access to Finance – Home</title>
+  <meta name="description" content="The official Access to Finance homepage for agro-entrepreneurs and partners." />
+  <link rel="canonical" href="https://access-to-finance.vercel.app" />
+</Helmet>
+
 
 const Apply = () => {
   return (

@@ -1,6 +1,14 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import posts from "../data/posts";
+import { Helmet } from "react-helmet-async";
+
+<Helmet>
+  <title>Access to Finance – Home</title>
+  <meta name="description" content="The official Access to Finance homepage for agro-entrepreneurs and partners." />
+  <link rel="canonical" href="https://access-to-finance.vercel.app" />
+</Helmet>
+
 
 const PostDetail = () => {
   const { id } = useParams();

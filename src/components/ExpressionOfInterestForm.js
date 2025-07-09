@@ -6,8 +6,8 @@ const handleSubmit = async (e) => { e.preventDefault(); const form = formRef.cur
 
 try {
   await emailjs.sendForm(
-    "SERVICE_etmae5u",
-    "TEMPLATE_jpu42g4",
+    "service_etmae5u",
+    "template_jpu42g4",
     form,
     "OoZgk-OC0OfwrnGQu"
   );
