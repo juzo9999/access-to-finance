@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import partners from "../data/partners"; // Make sure to import this at the top
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 import SEO from "../components/SEO"; // Import your SEO component if you have one
 <Helmet>
   <title>Access to Finance – Home</title>

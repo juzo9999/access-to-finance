@@ -1,7 +1,7 @@
 // src/App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HelmetProvider } from "react-helmet-async";
+import { HelmetProvider } from "react-helmet";
 import { Toaster } from "react-hot-toast";
 import { usePageTracking } from "./utils/analytics";
 
