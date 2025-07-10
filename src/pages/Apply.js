@@ -1,6 +1,6 @@
 import React from "react";
 import ExpressionOfInterestForm from "../components/ExpressionOfInterestForm";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 
 <Helmet>
   <title>Access to Finance – Home</title>

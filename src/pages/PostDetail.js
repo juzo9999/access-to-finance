@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import posts from "../data/posts";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 
 <Helmet>
   <title>Access to Finance – Home</title>

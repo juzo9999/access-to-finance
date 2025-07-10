@@ -1,7 +1,7 @@
 // src/App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HelmetProvider } from "react-helmet";
+import { Helmet } from "react-helmet";
 import { Toaster } from "react-hot-toast";
 import { usePageTracking } from "./utils/analytics";
 
@@ -15,7 +15,7 @@ function App() {
   usePageTracking(); // ✅ Tracks route changes for GA
 
   return (
-    <HelmetProvider>
+    <Helmet>
       <Router>
         <Toaster position="top-right" reverseOrder={false} />
         <Routes>
@@ -26,7 +26,7 @@ function App() {
           <Route path="/secret-admin" element={<AdminEmailSender />} /> {/* 🔐 Hidden route */}
         </Routes>
       </Router>
-    </HelmetProvider>
+    </Helmet>
   );
 }
 
