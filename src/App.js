@@ -1,6 +1,6 @@
 // src/App.js
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { Toaster } from "react-hot-toast";
 import { usePageTracking } from "./utils/analytics";
@@ -15,21 +15,23 @@ function App() {
   usePageTracking(); // ✅ Tracks route changes for GA
 
   return (
-    <Helmet>
-      <Router>
-        <Toaster position="top-right" reverseOrder={false} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/apply" element={<Apply />} />
-          <Route path="/content" element={<Content />} />
-          <Route path="/post/:id" element={<PostDetail />} />
-          <Route path="/secret-admin" element={<AdminEmailSender />} /> {/* 🔐 Hidden route */}
-        </Routes>
-      </Router>
-    </Helmet>
+    <>
+      <Helmet>
+        <title>Access to Finance – Prime Anchor</title>
+        <meta name="description" content="Unlock funding opportunities with our Prime Anchor Finance Program." />
+      </Helmet>
+
+      <Toaster position="top-right" reverseOrder={false} />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/apply" element={<Apply />} />
+        <Route path="/content" element={<Content />} />
+        <Route path="/post/:id" element={<PostDetail />} />
+        <Route path="/secret-admin" element={<AdminEmailSender />} />
+      </Routes>
+    </>
   );
 }
 
 export default App;
-
-
