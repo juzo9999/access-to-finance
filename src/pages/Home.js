@@ -312,7 +312,7 @@ const Home = () => {
       {/* ✅ Footer */}
       <footer className="bg-darkGreen text-white py-10 px-6">
         <div className="max-w-6xl mx-auto space-y-4 text-sm text-center">
-          <p>Email: access2finance.ng@gmail.com | Phone: +234 [insert]</p>
+          <p>Email: access2finance.ng@gmail.com | Phone: +234 [8037013655]</p>
           <p>Office: Maccido Dalhat Secretariat Complex, Kaduna</p>
           <p className="text-accent">
             © 2025 Access to Finance Program – Powered by Primeagro and Energy Facilitation Services ltd
