@@ -8,7 +8,7 @@ const SEO = ({ title, description, keywords, image, url }) => { return ( <Helmet
   <meta property="og:title" content={title || "Access to Finance Program"} />
   <meta property="og:description" content={description || "Unlock sustainable agricultural financing through the Prime Anchor Model."} />
   <meta property="og:image" content={image || "https://i.postimg.cc/nrbGkkvv/image.png"} />
-  <meta property="og:url" content={url || "https://access-to-finance.vercel.app/"} />
+  <meta property="og:url" content={url || "https://accesstofinance.com.ng/"} />
   <meta property="og:type" content="website" />
 
   {/* Twitter */}
@@ -17,7 +17,7 @@ const SEO = ({ title, description, keywords, image, url }) => { return ( <Helmet
   <meta name="twitter:description" content={description || "Unlock sustainable agricultural financing through the Prime Anchor Model."} />
   <meta name="twitter:image" content={image || "https://i.postimg.cc/nrbGkkvv/image.png"} />
   
-  <link rel="canonical" href={url || "https://access-to-finance.vercel.app/"} />
+  <link rel="canonical" href={url || "https://accesstofinance.com.ng/"} />
 </Helmet>
 
 
@@ -28,7 +28,7 @@ const SEO = ({ title, description, keywords, image, url }) => { return ( <Helmet
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Access to Finance Program",
-    "url": "https://access-to-finance.vercel.app",
+    "url": "https://accesstofinance.com.ng",
     "logo": "https://i.postimg.cc/nrbGkkvv/image.png",
     "contactPoint": {
       "@type": "ContactPoint",

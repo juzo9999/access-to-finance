@@ -20,7 +20,7 @@ const AdminEmailSender = () => {
     linkedin: "",
     email_subject: "Access to Finance Program – Official Communication",
     cta_text: "Visit Our Website",
-    cta_link: "https://accesstofinance.ng",
+    cta_link: "https://accesstofinance.com.ng",
   });
 
   const correctPasscode = "a2fteam2025";

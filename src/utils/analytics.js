@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ReactGA from "react-ga4";
 
-const TRACKING_ID = "G-XXXXXXXXXX"; // Replace with your actual GA4 ID
+const TRACKING_ID = "G-S8NPQT8K4M"; // Replace with your actual GA4 ID
 
 export const initAnalytics = () => {
   ReactGA.initialize(TRACKING_ID);

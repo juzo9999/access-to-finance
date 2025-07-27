@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 <Helmet>
   <title>Access to Finance – Home</title>
   <meta name="description" content="The official Access to Finance homepage for agro-entrepreneurs and partners." />
-  <link rel="canonical" href="https://access-to-finance.vercel.app" />
+  <link rel="canonical" href="https://accesstofinance.com.ng" />
 </Helmet>
 
 

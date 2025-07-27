@@ -6,7 +6,7 @@ import SEO from "../components/SEO"; // Import your SEO component if you have on
 <Helmet>
   <title>Access to Finance – Home</title>
   <meta name="description" content="The official Access to Finance homepage for agro-entrepreneurs and partners." />
-  <link rel="canonical" href="https://access-to-finance.vercel.app" />
+  <link rel="canonical" href="https://accesstofinance.com.ng" />
 </Helmet>
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
   <SEO
     title="Access to Finance – Prime Anchor Model"
     description="A private sector-led initiative enabling financing, infrastructure, and market support for Nigerian agribusinesses."
-    url="https://access-to-finance.vercel.app"
+    url="https://accesstofinance.com.ng"
   />
   
   {/* Existing homepage JSX goes here... */}
