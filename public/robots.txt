@@ -1,7 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
 User-agent: *
 Allow: /
 
-Sitemap: https://access-to-finance.vercel.app/sitemap.xml
+Sitemap: https://accesstofinance.com.ng/sitemap.xml
