@@ -283,7 +283,43 @@ const Home = () => {
           </ul>
         </div>
       </section>
-
+<section className="bg-white border-b border-borderLight py-10 px-6">
+        <div className="max-w-6xl mx-auto space-y-6">
+          <h2 className="text-2xl font-bold text-primary">Key Stakeholders</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="p-5 border border-borderLight rounded-lg shadow-sm hover:shadow-lg transition">
+              <h4 className="font-semibold text-lg mb-2 text-gold">1. Federal and State Government and their MDAs</h4>
+              <p>(These provide policy backing, referral, budgetary support, and recognition).</p>
+            </div>
+            <div className="p-5 border border-borderLight rounded-lg shadow-sm hover:shadow-lg transition">
+              <h4 className="font-semibold text-lg mb-2 text-gold">2. Financial Institutions / Development Finance Partners
+</h4>
+              <p>These provide blended or direct financing, credit guarantees, and risk instruments-NIRSAL Microfinance Bank,
+Nigeria Incentive-Based Risk Sharing System for Agricultural Lending (NIRSAL PLC)
+</p>
+            </div>
+            <div className="p-5 border border-borderLight rounded-lg shadow-sm hover:shadow-lg transition">
+              <h4 className="font-semibold text-lg mb-2 text-gold">3. Private Sector Anchors / Off-takers</h4>
+              <p>*Processor companies (maize millers, rice processors, poultry aggregators)
+Input suppliers (seed, feed, fertilizer distributors)
+Logistics / Mechanization service provid
+</p>
+            </div>
+            <div className="p-5 border border-borderLight rounded-lg shadow-sm hover:shadow-lg transition">
+              <h4 className="font-semibold text-lg mb-2 text-gold">4. Electricity Distribution Companies (DisCos) , Rural Electrification Agency REA</h4>
+              <p></p>
+            </div>
+            <div className="p-5 border border-borderLight rounded-lg shadow-sm hover:shadow-lg transition">
+              <h4 className="font-semibold text-lg mb-2 text-gold">5. Cluster of farming communities/ Cooperatives  </h4>
+              <p></p>
+            </div>
+            <div className="p-5 border border-borderLight rounded-lg shadow-sm hover:shadow-lg transition">
+              <h4 className="font-semibold text-lg mb-2 text-gold">6. Strategic Technical & Training Partners</h4>
+              <p>Policy and Agricultural Systems Strengthening Project (PASS), Synergos Nigeria</p>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* ✅ Partners */}
       <section className="bg-white border-b border-borderLight py-12">
         <div className="max-w-6xl mx-auto space-y-8 px-4">
