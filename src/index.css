@@ -5,7 +5,8 @@
 
 @layer base {
   body {
-    @apply bg-secondary text-textMain font-sans;
+    @apply bg-green-200 text-textMain font-sans;
+    
   }
 
   .inputStyle {

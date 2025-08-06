@@ -1,5 +1,10 @@
 import React, { useRef } from "react"; import emailjs from "emailjs-com"; import toast, { Toaster } from "react-hot-toast";
+import { Helmet } from 'react-helmet';
 
+<Helmet>
+  <link rel="canonical" href="https://accesstofinance.com.ng/eoi" />
+  <meta property="og:url" content="https://accesstofinance.com.ng" />
+</Helmet>
 const ExpressionOfInterestForm = () => { const formRef = useRef();
 
 const handleSubmit = async (e) => { e.preventDefault(); const form = formRef.current; const formData = new FormData(form);

@@ -5,7 +5,11 @@ import { Helmet } from "react-helmet";
 <Helmet>
   <title>Access to Finance – Home</title>
   <meta name="description" content="The official Access to Finance homepage for agro-entrepreneurs and partners." />
-  <link rel="canonical" href="https://accesstofinance.com.ng" />
+  <link rel="canonical" href="https://accesstofinance.com.ng/Apply" />
+  <meta property="og:url" content="https://accesstofinance.com.ng" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://accesstofinance.com.ng/https://i.postimg.cc/hvQZkY0h/image.png" />
+
 </Helmet>
 
 

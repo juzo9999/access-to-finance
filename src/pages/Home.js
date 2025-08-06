@@ -5,12 +5,17 @@ import { Helmet } from "react-helmet";
 import SEO from "../components/SEO"; // Import your SEO component if you have one
 <Helmet>
   <title>Access to Finance – Home</title>
-  <meta name="description" content="The official Access to Finance homepage for agro-entrepreneurs and partners." />
-  <link rel="canonical" href="https://accesstofinance.com.ng" />
+
+  <link rel="canonical" href="https://accesstofinance.com.ng/" />
+  <meta property="og:url" content="https://accesstofinance.com.ng" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://accesstofinance.com.ng/https://i.postimg.cc/hvQZkY0h/image.png" />
+  <meta property="og:title" content="Access to Finance Program" />
+  <meta property="og:description" content="Unlock sustainable agricultural financing through the Prime Anchor Model." />
 </Helmet>
 const Home = () => {
   return (
-    <div className="bg-secondary text-textMain">
+    <div className="bg-green text-textMain">
       <>
   <SEO
     title="Access to Finance – Prime Anchor Model"
@@ -40,7 +45,7 @@ const Home = () => {
       </nav>
 
       {/* ✅ Hero Section */}
-      <section className="bg-gradient-to-r from-green-100 via-white to-green-50 rounded-b-3xl shadow-md animate-fadeInUp">
+      <section className="bg-gradient-to-r from-white-100 via-white to-green rounded-b-3xl shadow-md animate-fadeInUp">
         <div className="max-w-6xl mx-auto text-center py-20 px-6">
           <img src="https://i.postimg.cc/hvQZkY0h/image.png" alt="Access to finance logo" className="mx-auto w-42 mb-6"/>
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
@@ -232,9 +237,9 @@ const Home = () => {
       </section>
 
       {/* ✅ Objectives */}
-      <section className="bg-softGray border-b border-borderLight py-10 px-6">
+      <section className="bg-green-300 border-b border-borderLight py-10 px-6">
         <div className="max-w-6xl mx-auto space-y-6">
-          <h2 className="text-2xl font-bold text-primary">🧭 What Makes Us Different?</h2>
+          <h2 className="text-2xl font-bold text-black">🧭 What Makes Us Different?</h2>
           <ul className="list-disc list-inside space-y-2">
             <li>We Facilitate — not hand out.</li>
             <li>We Anchor Enterprises — not politicians.</li>
@@ -271,7 +276,7 @@ const Home = () => {
       </section>
 
       {/* ✅ Who Can Apply */}
-      <section className="bg-softGray border-b border-borderLight py-10 px-6">
+      <section className="bg-green border-b border-borderLight py-10 px-6">
         <div className="max-w-6xl mx-auto space-y-6">
           <h2 className="text-2xl font-bold text-primary">Who Can Apply?</h2>
           <ul className="list-disc list-inside space-y-2">
@@ -331,7 +336,7 @@ Logistics / Mechanization service provid
                 href={partner.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-softGray border border-borderLight rounded-xl shadow-sm hover:shadow-lg transition duration-300 hover:scale-105 w-full max-w-[160px] text-center p-4 flex flex-col items-center"
+                className="bg-green border border-borderLight rounded-xl shadow-sm hover:shadow-lg transition duration-300 hover:scale-105 w-full max-w-[160px] text-center p-4 flex flex-col items-center"
         >
           <img
             src={partner.logo}

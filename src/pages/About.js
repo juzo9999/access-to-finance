@@ -1,5 +1,13 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 
+<Helmet>
+  <link rel="canonical" href="https://accesstofinance.com.ng/About" />
+  <meta property="og:url" content="https://accesstofinance.com.ng" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://accesstofinance.com.ng/https://i.postimg.cc/hvQZkY0h/image.png" />
+
+</Helmet>
 const About = () => {
   return (
     <div className="min-h-screen bg-secondary text-textLight px-6 py-10">
