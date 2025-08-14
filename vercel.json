@@ -1,9 +1,8 @@
 {
   "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://accesstofinance.com.ng/$1",
-      "permanent": true
-    }
-  ]
+    { "source": "http://www.accesstofinance.ng/(.*)", "destination": "https://accesstofinance.ng/$1", "permanent": true },
+    { "source": "http://accesstofinance.ng/(.*)", "destination": "https://accesstofinance.ng/$1", "permanent": true },
+    { "source": "https://www.accesstofinance.ng/(.*)", "destination": "https://accesstofinance.ng/$1", "permanent": true }
+  ],
+  "trailingSlash": false
 }
