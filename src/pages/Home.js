@@ -32,7 +32,7 @@ const Home = () => {
           <h1 className="text-xl md:text-2xl font-bold text-primary">🌾 Access to Finance</h1>
           <ul className="flex gap-6 font-medium text-gray-700">
             <li>
-              <Link to="/" className="hover:text-primary transition">Home</Link>
+              <Link to="/home" className="hover:text-primary transition">Home</Link>
             </li>
             <li>
               <Link to="/apply" className="hover:text-primary transition">Apply</Link>
