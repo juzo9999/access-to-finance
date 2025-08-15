@@ -25,7 +25,7 @@ function App() {
       <Toaster position="top-right" reverseOrder={false} />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/apply" element={<Apply />} />
         <Route path="/content" element={<Content />} />
         <Route path="/post/:id" element={<PostDetail />} />
