@@ -5,14 +5,16 @@ import { Helmet } from "react-helmet";
 import SEO from "../components/SEO"; // Import your SEO component if you have one
 <Helmet>
   <title>Access to Finance – Home</title>
-
   <link rel="canonical" href="https://accesstofinance.com.ng/" />
-  <meta property="og:url" content="https://accesstofinance.com.ng" />
+  <meta name="description" content="The official Access to Finance homepage for agro-entrepreneurs and partners." />
+
+  <meta property="og:url" content="https://accesstofinance.com.ng/" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://accesstofinance.com.ng/https://i.postimg.cc/hvQZkY0h/image.png" />
-  <meta property="og:title" content="Access to Finance Program" />
-  <meta property="og:description" content="Unlock sustainable agricultural financing through the Prime Anchor Model." />
+  <meta property="og:title" content="Access to Finance – Empowering Agro-Entrepreneurs" />
+  <meta property="og:description" content="Learn about finance opportunities, programs, and partnerships for agro-entrepreneurs in Nigeria." />
+  <meta property="og:image" content="https://i.postimg.cc/hvQZkY0h/image.png" />
 </Helmet>
+
 const Home = () => {
   return (
     <div className="bg-green text-textMain">
