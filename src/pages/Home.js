@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import partners from "../data/partners"; // Make sure to import this at the top
 import { Helmet } from "react-helmet";
 import SEO from "../components/SEO"; // Import your SEO component if you have one
+import Navbar from "../components/Navbar";
 <Helmet>
   {/* SEO Basics */}
   <title>Access to Finance – Home</title>
@@ -62,25 +63,8 @@ const Home = () => {
   
   {/* Existing homepage JSX goes here... */}
 </>
-
-      {/* ✅ Navbar */}
-      <nav className="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
-          <h1 className="text-xl md:text-2xl font-bold text-primary">🌾 Access to Finance</h1>
-          <ul className="flex gap-6 font-medium text-gray-700">
-            <li>
-              <Link to="/" className="hover:text-primary transition">Home</Link>
-            </li>
-            <li>
-              <Link to="/apply" className="hover:text-primary transition">Apply</Link>
-            </li>
-            <li>
-              <Link to="/content" className="hover:text-primary transition">Content</Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
+      <Navbar />
+      
       {/* ✅ Hero Section */}
       <section className="bg-gradient-to-r from-white-100 via-white to-green rounded-b-3xl shadow-md animate-fadeInUp">
         <div className="max-w-6xl mx-auto text-center py-20 px-6">
