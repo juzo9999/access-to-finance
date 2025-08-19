@@ -4,15 +4,50 @@ import partners from "../data/partners"; // Make sure to import this at the top
 import { Helmet } from "react-helmet";
 import SEO from "../components/SEO"; // Import your SEO component if you have one
 <Helmet>
+  {/* SEO Basics */}
   <title>Access to Finance – Home</title>
   <link rel="canonical" href="https://accesstofinance.com.ng/" />
-  <meta name="description" content="The official Access to Finance homepage for agro-entrepreneurs and partners." />
+  <meta
+    name="description"
+    content="The official Access to Finance homepage for agro-entrepreneurs and partners."
+  />
 
+  {/* Open Graph (social previews) */}
   <meta property="og:url" content="https://accesstofinance.com.ng/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Access to Finance – Empowering Agro-Entrepreneurs" />
-  <meta property="og:description" content="Learn about finance opportunities, programs, and partnerships for agro-entrepreneurs in Nigeria." />
-  <meta property="og:image" content="https://i.postimg.cc/hvQZkY0h/image.png" />
+  <meta
+    property="og:description"
+    content="Learn about finance opportunities, programs, and partnerships for agro-entrepreneurs in Nigeria."
+  />
+  <meta
+    property="og:image"
+    content="https://i.postimg.cc/hvQZkY0h/image.png"
+  />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Access to Finance – Empowering Agro-Entrepreneurs" />
+  <meta
+    name="twitter:description"
+    content="Learn about finance opportunities, programs, and partnerships for agro-entrepreneurs in Nigeria."
+  />
+  <meta
+    name="twitter:image"
+    content="https://i.postimg.cc/hvQZkY0h/image.png"
+  />
+
+  {/* Structured Data for Google Logo */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://accesstofinance.com.ng",
+        "logo": "https://i.postimg.cc/hvQZkY0h/image.png"
+      }
+    `}
+  </script>
 </Helmet>
 
 const Home = () => {
