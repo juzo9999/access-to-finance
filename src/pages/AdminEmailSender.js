@@ -43,10 +43,10 @@ const AdminEmailSender = () => {
 
     emailjs
       .send(
-        "service_etmaeu5u",
-        "template_ouc8qip",
+        "service_fhnih6w",
+        "template_tbuozsh",
         formData,
-        "OoZgk-OC0OfwrnGQu"
+        "cn8KSQX_xLIxrnWtY"
       )
       .then(() => {
         toast.success("✅ Email sent successfully!");
