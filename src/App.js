@@ -10,6 +10,8 @@ import Apply from "./pages/Apply";
 import Content from "./pages/Content";
 import PostDetail from "./pages/PostDetail";
 import AdminEmailSender from "./pages/AdminEmailSender"; // 🔐 Hidden route
+import programs from "./data/programs";
+import ProgramDetails from "./pages/ProgramDetails";
 
 function App() {
   usePageTracking(); // ✅ Tracks route changes for GA
@@ -30,6 +32,8 @@ function App() {
         <Route path="/content" element={<Content />} />
         <Route path="/post/:id" element={<PostDetail />} />
         <Route path="/secret-admin" element={<AdminEmailSender />} />
+        <Route path="/programs/:id" element={<ProgramDetails />} />
+        <Route path="/" element={<programs />} />
       </Routes>
     </div>
   );
