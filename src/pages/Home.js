@@ -189,7 +189,7 @@ Nigeria Incentive-Based Risk Sharing System for Agricultural Lending (NIRSAL PLC
               <h4 className="font-semibold text-lg mb-2 text-gold">3. Private Sector Anchors / Off-takers</h4>
               <p>*Processor companies (maize millers, rice processors, poultry aggregators)
 Input suppliers (seed, feed, fertilizer distributors)
-Logistics / Mechanization service provid
+Logistics / Mechanization service providers
 </p>
             </div>
             <div className="p-5 border border-borderLight rounded-lg shadow-sm hover:shadow-lg transition">
@@ -208,9 +208,9 @@ Logistics / Mechanization service provid
         </div>
       </section>
       {/* ✅ Partners */}
-      <section className="bg-white border-b border-borderLight py-12">
+      *<section className="bg-white border-b border-borderLight py-12">
         <div className="max-w-6xl mx-auto space-y-8 px-4">
-          <h2 className="text-2xl font-bold text-primary text-center">Partners & Supporters</h2>
+          <h2 className="text-2xl font-bold text-primary text-center">Partners Under Development (prospects) </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 justify-items-center">
               {partners.map((partner, index) => (
               <a
@@ -236,9 +236,10 @@ Logistics / Mechanization service provid
       <footer className="bg-darkGreen text-white py-10 px-6">
         <div className="max-w-6xl mx-auto space-y-4 text-sm text-center">
           <p>Email: access2finance.ng@gmail.com | Phone: +234 [8037013655]</p>
-          <p>Office: Maccido Dalhat Secretariat Complex, Kaduna</p>
+          <p>Office: Maccido Dalhat Secretariat Complex, Independence Way Kaduna</p>
           <p className="text-accent">
             © 2025 Access to Finance Program – Powered by Primeagro and Energy Facilitation Services ltd
+            <br/>All Rights Reserved
           </p>
         </div>
       </footer>
